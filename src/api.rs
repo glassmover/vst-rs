@@ -270,7 +270,7 @@ pub enum SpeakerArrangementType {
 
 /// Used to specify whether functionality is supported.
 #[allow(missing_docs)]
-#[derive(PartialEq, Eq)]
+#[derive(PartialEq, Eq, Debug)]
 pub enum Supported {
     Yes,
     Maybe,
